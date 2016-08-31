@@ -1,4 +1,4 @@
-This is a matlab for for solving poisson equation by FEM on 2-d domains. It is taken from
+This is a matlab code for solving poisson equation by FEM on 2-d domains. It is taken from
 
 "Remarks around 50 lines of Matlab: short finite element implementation"
 
