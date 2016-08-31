@@ -15,5 +15,22 @@ sinusoid :
 square   : Generate grid by running square.m in matlab
 
 -------------------------------------------------------------------------------
-How to run
+How to run code in "square"
 -------------------------------------------------------------------------------
+
+bash> cd square
+
+Start matlab
+
+bash> matlab
+
+Generate mesh
+
+>> square(30)
+>> close all
+>> clear all
+
+Add path to fem code and run it
+
+>> addpath(path,'../src')
+>> fem_50()

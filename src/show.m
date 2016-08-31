@@ -30,8 +30,8 @@ function show ( elements3, elements4, coordinates, u )
 
   title ( 'Solution to the Problem' )
 
-  if isempty(elements4)
-   figure(2)
-   pdecont(coordinates', elements3', u');
-  end
+% if isempty(elements4)
+%   figure(2)
+%   pdecont(coordinates', elements3', u);
+% end
 end
