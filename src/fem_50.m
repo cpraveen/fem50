@@ -60,6 +60,7 @@ function fem_50 ( )
 %    Volume 20, pages 117-137, 1999.
 %
   clear
+  tic;
 
   fprintf ( 1, '\n' );
   fprintf ( 1, 'FEM_50:\n' );
@@ -152,6 +153,6 @@ function fem_50 ( )
   fprintf ( 1, '  Normal end of execution.\n' );
 
   fprintf ( 1, '\n' );
-  timestamp ( );
+  toc;
 
 end
