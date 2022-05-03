@@ -40,3 +40,19 @@ Add path to fem code and run it
 >> addpath(path,'../src')
 >> fem_50()
 ```
+
+## Running on matlab drive
+
+Download code
+
+```matlab
+unzip('https://github.com/cpraveen/fem50/archive/master.zip')
+movefile('fem50-master', 'fem50'), addpath(fullfile(cd,'fem50/src')), savepath
+```
+
+Run it
+
+```matlab
+square(30)
+fem_50()
+```
