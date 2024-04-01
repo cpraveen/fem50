@@ -56,3 +56,10 @@ Run it
 square(30)
 fem_50()
 ```
+
+## You can avoid matlab
+
+There is no reason to use matlab which is not a free software. You have better options in Python and Julia. For similar codes as this, see
+
+1. Python: https://github.com/cpraveen/fem/tree/master/python/2d
+1. Julia: https://github.com/cpraveen/juliafem
